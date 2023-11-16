@@ -3,4 +3,4 @@
 
 #### How to use
 1. insert your email address in email_here.py
-2. run streamlit run '[path to app.py]'
+2. run the command streamlit run ‘'[path to app.py]'‘
