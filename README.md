@@ -1,7 +1,7 @@
 # 3DVarPro
 3DVarPro is a web app that lets you visualize clinical trait-associated point mutations on the 3D structure of the wild-type protein.
 
-####How to use the app
+#### How to use the app
 The app is available at https://3dvarpro.streamlit.app
 
 #### How to use the code
