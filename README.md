@@ -9,6 +9,6 @@ The app is available at https://3dvarpro.streamlit.app
 2. run the command <code>streamlit run '[path to app.py]'</code>
 
 #### Changelog
-Ver 1.0
-Ver 1.1: added "Show example" feature
-Ver 1.2: added filter by mutation position
+- 1.0
+- 1.1: added "Show example" feature
+- 1.2: added filter by mutation position
