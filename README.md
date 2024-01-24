@@ -12,3 +12,4 @@ The app is available at https://3dvarpro.streamlit.app
 - 1.0
 - 1.1: added "Show example" feature
 - 1.2: added filter by mutation position
+- 1.2.1.: added ID mapping (search using both UniprotKB AC/ID and Gene Name); added "search using identifier only" beta feature
