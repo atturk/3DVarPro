@@ -298,6 +298,16 @@ def main():
             else: 
                 st.warning("Please insert the identifier first.")
 
+    if 'ex' not in st.session_state:
+        st.session_state.ex = False
+    
+    if pdb_file is None and gene == '':
+        st.button('Show example', on_click=showexample)
+        if st.session_state.ex:
+            pdb_file = 'AF-Q96Q42-F1-model_v4.pdb'
+            gene = 'ALS2'
+            st.markdown('PDB file: [AF-Q96Q42-F1-model_v4.pdb](https://alphafold.ebi.ac.uk/entry/Q96Q42) <br> Gene: [ALS2](https://www.ncbi.nlm.nih.gov/clinvar/?term=ALS2%5Bgene%5D+AND+%22mol+cons+missense%22%5Bfilter%5D)', unsafe_allow_html=True)
+
     #dati da clinvar
     if pdb_file is not None and gene != '':
         if st.session_state.disabled == False:
